@@ -1,0 +1,9 @@
+#- name: About1
+#  link: /about.html
+#- name: Blog
+#  link: /blog.html
+#- name: Staff
+#  link: /staff.html
+- title: About
+  url: /about/
+  external: false

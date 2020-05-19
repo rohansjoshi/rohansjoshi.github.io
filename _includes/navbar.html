@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-md navbar-light" role="navigation">
+    <a class="navbar-brand" href="/">Rohan Joshi</a>
+
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false" aria-controls="navbar-main">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-main" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+            {% for link in site.data.navigation %}
+                <li class="nav-item {% if page.url == link.url %}active{% endif %}">
+                    <a class="nav-link" href="{{ link.url }}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li {% if page.url == "blog" %}class="active"{% endif %}>
+                <a class="nav-link" href="/blog/">Blog</a>
+            </li>
+        </ul>
+    </div>
+</nav>
