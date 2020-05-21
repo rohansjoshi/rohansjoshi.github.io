@@ -1,5 +1,6 @@
 ---
 layout: default
-title: About
+title: about
+permalink: /about/
 ---
 # Hi

@@ -4,6 +4,9 @@
 #  link: /blog.html
 #- name: Staff
 #  link: /staff.html
-- title: About
-  url: /about/
-  external: false
+#- title: about
+#  url: /about/
+#  external: false
+#- title: Authors
+#  url: /authors/
+#  external: false

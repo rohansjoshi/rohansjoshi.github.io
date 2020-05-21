@@ -1,4 +1,5 @@
 ---
+layout: default
 short_name: rohan
 name: Rohan Joshi
 position: CEO of Rohan's Office
