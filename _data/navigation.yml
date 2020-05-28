@@ -7,6 +7,6 @@
 #- title: about
 #  url: /about/
 #  external: false
-#- title: Authors
-#  url: /authors/
-#  external: false
+- title: writing
+  url: /writing.html
+  external: false
